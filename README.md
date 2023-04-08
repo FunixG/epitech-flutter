@@ -1,6 +1,7 @@
 # Project description
 
 A simple mobile cross platform app where you can buy your best sunglasses !
+This project is not finished, it's just a test to discover flutter
 
 # Build app
 
