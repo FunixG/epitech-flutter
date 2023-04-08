@@ -1,3 +1,13 @@
+# Project description
+
+A simple mobile cross platform app where you can buy your best sunglasses !
+
+# Build app
+
+flutter build [apk | web | aar]
+
+
+
 # epitech-flutter
 Flutter dev app epitech project
 
