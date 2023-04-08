@@ -11,7 +11,7 @@ class ShopWidget extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: const <Widget> [
-          Text('Shop list')
+          Text('hey')
         ],
       ),
     );

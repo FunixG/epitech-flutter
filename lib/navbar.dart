@@ -1,11 +1,10 @@
+import 'package:epitech_flutter/widgets/account/account_widget.dart';
+import 'package:epitech_flutter/widgets/cart/cart_widget.dart';
+import 'package:epitech_flutter/widgets/shop/shop_widget.dart';
 import 'package:flutter/material.dart';
 
-import './widgets/account/account_widget.dart';
-import './widgets/cart/cart_widget.dart';
-import './widgets/shop/shop_widget.dart';
-
 class Navbar extends StatefulWidget {
-  const Navbar({Key? key}) : super(key: key);
+  const Navbar({super.key});
 
   @override
   NavPacifistaState createState() => NavPacifistaState();
@@ -14,7 +13,7 @@ class Navbar extends StatefulWidget {
 class NavPacifistaState extends State<Navbar> {
   int _selectedIndex = 0;
 
-  static const List<Widget> _widgetOptions = <Widget>[
+  static final List<Widget> _widgetOptions = <Widget>[
     ShopWidget(),
     CartWidget(),
     AccountWidget(),
