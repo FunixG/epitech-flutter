@@ -14,7 +14,7 @@ class NavPacifistaState extends State<Navbar> {
   int _selectedIndex = 0;
 
   static final List<Widget> _widgetOptions = <Widget>[
-    const ShopWidget(),
+    ShopWidget(),
     const CartWidget(),
     const AccountWidget(),
   ];
